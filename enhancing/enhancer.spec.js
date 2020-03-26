@@ -44,7 +44,7 @@ describe("enhancer.js", () => {
       expect(enhancer.succeed({ enhancement: 19 + 1 }).enhancement).toBe(20);
     });
     //Act
-    it("enhancement should not change if equal 20 ", () => {
+    test("enhancement should not change if equal 20 ", () => {
       //Assert
 
       // expect(enhancer.succeed({ enhancer: 20 }).enhancer).toBe(25);
@@ -52,7 +52,7 @@ describe("enhancer.js", () => {
       expect(enhancer.succeed({ enhancement: 20 }).enhancement).toBe(20);
     });
     //Act
-    it("The durability of item should not changed or increase ", () => {
+    test("The durability of item should not changed or increase ", () => {
       //Assert
 
       // expect(
